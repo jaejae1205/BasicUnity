@@ -15,7 +15,7 @@ public class MoveWithGravity : MonoBehaviour
 
     void Update()
     {
-        //space ≈∞∏¶ ¥©∏£∏È ¡°«¡
+        //space ÌÇ§Î•º ÎàÑÎ•¥Î©¥ Ï†êÌîÑ
 
         if (Input.GetKeyDown(KeyCode.Space))
         {

@@ -16,16 +16,16 @@ public class VectorScript : MonoBehaviour
 
         //Debug.Log("Vector" + c);
 
-        //Debug.Log("±æÀÌ : "+ c.magnitude);
+        //Debug.Log("ê¸¸ì´ : "+ c.magnitude);
 
 
         Vector3 a = new Vector3(3, 0, 0);
 
-        //Á¤±ÔÈ­ normalize 
-        //º¤ÅÍÀÇ Å©±â¸¦ 1·Î ¸¸µé°í ¹æÇâ¸¸ À¯Áö
+        //ì •ê·œí™” normalize 
+        //ë²¡í„°ì˜ í¬ê¸°ë¥¼ 1ë¡œ ë§Œë“¤ê³  ë°©í–¥ë§Œ ìœ ì§€
         Vector3 normalizedVector = a.normalized;
 
-        Debug.Log("1ÀÇ±æÀÌ ¹æÇâ¸¸ s¼³Á¤ÇÏ´Â Á¤±ÔÈ­ : " + normalizedVector);
+        Debug.Log("1ì˜ê¸¸ì´ ë°©í–¥ë§Œ sì„¤ì •í•˜ëŠ” ì •ê·œí™” : " + normalizedVector);
     }
 
     
